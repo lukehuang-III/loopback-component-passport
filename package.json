@@ -1,0 +1,103 @@
+{
+  "_args": [
+    [
+      "loopback-component-passport@git+http://140.92.27.109:5566/root/loopback-component-passport.git",
+      "/Users/Luke/WebstormProjects/smarttourism_api2"
+    ]
+  ],
+  "_from": "git+http://140.92.27.109:5566/root/loopback-component-passport.git",
+  "_id": "loopback-component-passport@1.3.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/loopback-component-passport",
+  "_npmUser": {
+    "email": "enjoyjava@gmail.com",
+    "name": "rfeng"
+  },
+  "_npmVersion": "1.4.28",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "loopback-component-passport",
+    "raw": "loopback-component-passport@git+http://140.92.27.109:5566/root/loopback-component-passport.git",
+    "rawSpec": "git+http://140.92.27.109:5566/root/loopback-component-passport.git",
+    "scope": null,
+    "spec": "http://140.92.27.109:5566/root/loopback-component-passport.git",
+    "type": "git"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+http://140.92.27.109:5566/root/loopback-component-passport.git#e625059dbe1d419335ddfea39371b00a6ee85b5c",
+  "_shasum": "1b3f7261b748abbbc7a4bc615f54f39adb1aa0e4",
+  "_shrinkwrap": null,
+  "_spec": "loopback-component-passport@git+http://140.92.27.109:5566/root/loopback-component-passport.git",
+  "_where": "/Users/Luke/WebstormProjects/smarttourism_api2",
+  "bugs": {
+    "url": "https://github.com/strongloop/loopback-component-passport/issues"
+  },
+  "dependencies": {
+    "passport": "^0.2.1",
+    "underscore": "^1.8.2"
+  },
+  "description": "LoopBack passport integration to support third party logins and account linking",
+  "devDependencies": {
+    "loopback": "^2.14.0",
+    "mocha": "^2.2.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "ead183cf7d681496928778d794f84690af724f12",
+    "tarball": "http://registry.npmjs.org/loopback-component-passport/-/loopback-component-passport-1.3.0.tgz"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "gitHead": "01ebffb58801d24d5ad1ca725238e95e94898579",
+  "homepage": "https://github.com/strongloop/loopback-component-passport",
+  "keywords": [
+    "StrongLoop",
+    "LoopBack",
+    "social",
+    "login",
+    "security"
+  ],
+  "license": {
+    "name": "Dual Artistic-2.0/StrongLoop",
+    "url": "https://github.com/strongloop/loopback-component-passport/blob/master/LICENSE"
+  },
+  "main": "./lib/index.js",
+  "maintainers": [
+    {
+      "email": "enjoyjava@gmail.com",
+      "name": "rfeng"
+    },
+    {
+      "email": "skawful@gmail.com",
+      "name": "ritch"
+    },
+    {
+      "email": "callback@strongloop.com",
+      "name": "strongloop"
+    },
+    {
+      "email": "miro.bajtos@gmail.com",
+      "name": "bajtos"
+    }
+  ],
+  "name": "loopback-component-passport",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "loopback": "2.x || 1.x >=1.8.0"
+  },
+  "private": true,
+  "readme": "# LoopBack Passport Component\n\n**NOTE: This module supersedes [loopback-passport](https://www.npmjs.org/package/loopback-passport). Please update your package.json accordingly.**\n\nThe module provides integration between [LoopBack](http://loopback.io) and \n[Passport](http://passportjs.org) to support third-party login and account \nlinking for LoopBack applications.\n\n<img src=\"./ids_and_credentials.png\" width=\"600px\" />\n\n> Please see the [official documentation](http://docs.strongloop.com/pages/viewpage.action?pageId=3836277) for more information.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strongloop/loopback-component-passport.git"
+  },
+  "scripts": {
+    "test": "mocha -R spec --timeout 10000 test/*.js"
+  },
+  "version": "1.3.0"
+}
